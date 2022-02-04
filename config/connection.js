@@ -1,6 +1,11 @@
 const Sequelize = require('sequelize');
 require('dotenv').config();
 
+//Experiment
+// app.use(express.cookieParser('hello'));
+// app.use(express.session());
+//experiment End
+
 let sequelize;
 
 if (process.env.JAWSDB_URL) {
